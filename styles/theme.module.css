@@ -1,0 +1,5 @@
+.backgroundcolor {
+    background-image: linear-gradient(to right, rgb(29, 170, 29) , rgb(172, 255, 116));
+    text-align: center;
+    border-radius: 5%;
+}

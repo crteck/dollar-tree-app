@@ -7,7 +7,7 @@ export default function FirstLearn() {
     <>
     <MainStyle> 
     <Head>
-        <title>Menu Austin Learning</title>
+        <title>Box Counter</title>
     </Head>
     
     <h1 > Learning even way more stuff maybe </h1> 

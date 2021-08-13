@@ -10,7 +10,7 @@ import styles from './layouts.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Austin Peavyhouse'
+const name = 'Prototype Slip Space'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layouts({ children, home }) {
