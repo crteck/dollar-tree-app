@@ -2,10 +2,9 @@ import Head from 'next/head'
 import Layouts, { siteTitle } from '../components/layouts'
 import utilStyles from '../styles/utils.module.css'
 import appTheme from '../styles/theme.module.css'
-const transLate = require('tesseract.js');
 
-transLate.recognize('./pic.png', 'eng', {logger: e => console.log(e) })
-.then(out => console.log(out.data.text))
+
+
 export default function Home() {
 
   return (
@@ -14,7 +13,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Austin is learn Next.js</p>
+        <p>I want to do my best</p>
         <p>
           I hope that this website becomes a meaningfull web app{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.
